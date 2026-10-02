@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blush: #f8eeea;
+  --color-gold: #b08d57;
+  --color-ink: #2b2523;
+  --font-display: "Playfair Display", serif;
+  --font-body: "Lato", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background: var(--color-blush);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
