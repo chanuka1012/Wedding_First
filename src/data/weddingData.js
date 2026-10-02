@@ -12,7 +12,7 @@ export const weddingData = {
   },
 
   hero: {
-    image: "/images/hero/hero.png",
+    image: "/images/wedding_firstday02.jpg",
     // mobileImage: "/images/hero/hero-mobile.jpg",
     // video: "/videos/hero-loop.mp4",
     tagline: "We are getting married",
@@ -21,7 +21,7 @@ export const weddingData = {
   invitation: {
     title: "Together with their families",
     message: "We warmly invite you to celebrate our special day with us.",
-    image: "/images/couple-image01.jpg",
+    image: "/images/wedding_firstday02.jpg",
   },
 
   venue: {
@@ -29,19 +29,18 @@ export const weddingData = {
     address: "Colombo, Sri Lanka",
     mapUrl: "https://maps.google.com/?q=Colombo", // paste the real Google Maps link
     embedUrl: "", // optional: Google Maps → Share → Embed a map → copy the src
-    // image: "/images/venue/venue.jpg",
   },
 
   events: [
-    { title: "Wedding Ceremony", time: "10:00 AM", location: "Grand Ballroom", image: "/images/couple-image01.jpg" },
-    { title: "Reception", time: "12:30 PM", location: "Grand Ballroom", image: "/images/couple-image02.jpg" },
-    { title: "Dinner & Dancing", time: "7:00 PM", location: "Grand Ballroom", description: "Join us for an evening of celebration.", image: "/images/couple-image03.jpg" },
+    { title: "Wedding Ceremony", time: "10:00 AM", location: "Grand Ballroom", image: "/images/wedding_firstday02.jpg" },
+    { title: "Reception", time: "12:30 PM", location: "Grand Ballroom", image: "/images/wedding_firstday03.jpg" },
+    { title: "Dinner & Dancing", time: "7:00 PM", location: "Grand Ballroom", description: "Join us for an evening of celebration.", image: "/images/weddingfirstday05.jpg" },
   ],
 
   story: [
-    { year: "2019", title: "The Beginning", description: "We met and everything changed." /*, image: "/images/story/story-01.jpg" */ },
-    { year: "2022", title: "Growing Together", description: "Adventures, laughter and a lot of tea." /*, image: "/images/story/story-02.jpg" */ },
-    { year: "2025", title: "The Proposal", description: "A quiet evening, a big question, a yes." /*, image: "/images/story/story-03.jpg" */ },
+    { year: "2019", title: "The Beginning", description: "We met and everything changed.", image: "/images/wedding_firstday02.jpg" },
+    { year: "2022", title: "Growing Together", description: "Adventures, laughter and a lot of tea.", image: "/images/wedding_firstday03.jpg" },
+    { year: "2025", title: "The Proposal", description: "A quiet evening, a big question, a yes.", image: "/images/weddingfirstday06.jpg" },
   ],
 
   // videoHighlight: {

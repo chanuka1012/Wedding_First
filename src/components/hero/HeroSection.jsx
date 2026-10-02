@@ -6,7 +6,7 @@ export default function HeroSection({ data }) {
   return (
     <header
       id="top"
-      className="relative flex min-h-svh items-center justify-center overflow-hidden bg-ink text-center text-white"
+      className="relative flex min-h-svh items-center justify-center overflow-hidden bg-blush text-center text-ink"
     >
       <picture>
         {hero.mobileImage && <source media="(max-width: 767px)" srcSet={hero.mobileImage} />}
@@ -32,7 +32,7 @@ export default function HeroSection({ data }) {
         </video>
       )}
 
-      <div className="absolute inset-0 bg-black/45" />
+      <div className="absolute inset-0 bg-blush/70" />
 
       <div className="relative px-6">
         <p className="mb-4 text-sm uppercase tracking-[0.3em]">{hero.tagline}</p>

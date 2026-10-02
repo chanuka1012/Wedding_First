@@ -18,6 +18,15 @@ export default function ContactSection({ data }) {
     <SectionWrapper id="contact" title="Contact Us">
       <p className="mb-8">Please let us know if you can join us.</p>
 
+      {c.image && (
+        <img
+          src={c.image}
+          alt="A soft ivory and white wedding bouquet"
+          loading="lazy"
+          className="mx-auto mb-8 aspect-4/3 max-h-96 w-full max-w-2xl object-cover"
+        />
+      )}
+
       <Button href={whatsappLink(c.brideWhatsapp, rsvpText)} target="_blank" rel="noopener noreferrer">
         Confirm via WhatsApp
       </Button>
